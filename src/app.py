@@ -28,7 +28,8 @@ activities = {
         "participants": [
             "michael@mergington.edu",
             "daniel@mergington.edu",
-            "grace@mergington.edu"
+            "grace@mergington.edu",
+            "ethan@mergington.edu"
         ]
     },
     "Programming Class": {
@@ -38,7 +39,8 @@ activities = {
         "participants": [
             "emma@mergington.edu",
             "sophia@mergington.edu",
-            "noah@mergington.edu"
+            "noah@mergington.edu",
+            "isabella@mergington.edu"
         ]
     },
     "Gym Class": {
@@ -48,14 +50,19 @@ activities = {
         "participants": [
             "john@mergington.edu",
             "olivia@mergington.edu",
-            "mia@mergington.edu"
+            "mia@mergington.edu",
+            "lucas@mergington.edu"
         ]
     },
     "Art Club": {
         "description": "Explore drawing, painting, and other creative projects",
         "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
         "max_participants": 15,
-        "participants": ["ava@mergington.edu", "liam@mergington.edu"]
+        "participants": [
+            "ava@mergington.edu",
+            "liam@mergington.edu",
+            "chloe@mergington.edu"
+        ]
     }
 }
 
