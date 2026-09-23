@@ -17,3 +17,17 @@ def test_duplicate_signup_is_rejected():
 
     assert second_response.status_code == 400
     assert "already signed up" in second_response.json()["detail"].lower()
+
+
+def test_participant_can_unregister():
+    activity_name = "Art Club"
+    email = "remove.student@mergington.edu"
+
+    signup_response = client.post(f"/activities/{activity_name}/signup?email={email}")
+    assert signup_response.status_code == 200
+
+    unregister_response = client.delete(
+        f"/activities/{activity_name}/signup/{email}"
+    )
+    assert unregister_response.status_code == 200
+    assert email not in client.get("/activities").json()[activity_name]["participants"]
