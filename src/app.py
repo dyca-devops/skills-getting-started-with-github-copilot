@@ -43,7 +43,7 @@ activities = {
         "description": "Explore drawing, painting, and other creative projects",
         "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
         "max_participants": 15,
-        "participants": []
+        "participants": ["ava@mergington.edu", "liam@mergington.edu"]
     }
 }
 
